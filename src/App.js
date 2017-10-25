@@ -17,7 +17,7 @@ class App extends Component {
               <h1>Loyola's</h1>
               <h2>Painted Bengals</h2>
             </div>
-            <img src={logo} className="App-logo" alt="logo" style={{flex: 1}}/>
+            <img src={logo} className="App-logo" alt="logo" />
             <ul style={styles.nav}>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/queens">Queens</Link></li>
@@ -44,6 +44,7 @@ const styles = {
     margin: 0,
     padding: 0,
     flex: 1,
+    height: '100%',
     alignItems: 'flex-end',
   },
 }
