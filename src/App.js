@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Link, Route, Switch } from 'react-router-dom';
-import { CSSTransitionGroup } from 'react-transition-group';
 import logo from './logo.svg';
 import './App.css';
 
