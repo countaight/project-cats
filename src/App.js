@@ -44,6 +44,7 @@ const styles = {
     margin: 0,
     padding: 0,
     flex: 1,
+    height: '100%',
     alignItems: 'flex-end',
   },
 }
