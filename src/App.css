@@ -1,0 +1,94 @@
+body {
+  background-color: #000000;
+}
+
+#root {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 80vw;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  display: flex;
+  background-color: #222;
+  width: 100%;
+  flex: 1;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  flex: 1;
+}
+
+.App-title h1 {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+ul > li {
+  flex: 1;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  flex: 1;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  color: white;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-appear {
+  opacity: 0.01;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
