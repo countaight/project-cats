@@ -6,6 +6,7 @@ import './App.css';
 
 import Home from './pages/Home';
 import Queens from './pages/Queens';
+import Kings from './pages/Kings';
 
 class App extends Component {
   render() {
@@ -21,12 +22,14 @@ class App extends Component {
             <ul style={styles.nav}>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/queens">Queens</Link></li>
+              <li><Link to="/kings">Kings</Link></li>
             </ul>
           </header>
           <div className="container">
             <Switch>
               <Route path="/" exact component={Home} />
               <Route path="/queens" component={Queens} />
+              <Route path="/kings" component={Kings} />
             </Switch>
           </div>
         </div>
